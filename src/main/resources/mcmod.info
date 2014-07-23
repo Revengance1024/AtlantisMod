@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Atlantis",
+  "name": "AtlantisMod",
+  "description": "A mod that adds deeper oceans, ways to tinker with water and more!",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Revengance"
+  ],
+  "credits": "Made by Revengance, thought by Pahimar",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
