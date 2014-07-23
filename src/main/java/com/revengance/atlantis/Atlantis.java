@@ -1,6 +1,8 @@
 package com.revengance.atlantis;
 
 import com.revengance.atlantis.handler.ConfigurationHandler;
+import com.revengance.atlantis.init.ModBlocks;
+import com.revengance.atlantis.init.ModItems;
 import com.revengance.atlantis.proxy.IProxy;
 import com.revengance.atlantis.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -23,6 +25,9 @@ public class Atlantis {
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

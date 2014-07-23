@@ -4,5 +4,6 @@ public class ItemDebugger extends ItemAtlantisMod {
 
     public ItemDebugger(){
         super();
+        this.setUnlocalizedName("debugger");
     }
 }
